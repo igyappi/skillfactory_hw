@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&family=Roboto&display=swap');
+
+html,
+body {
+    height: 100%;
+}
+
+.greetings,
+p,
+h1, 
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 90%;
+    background-color: #d6f5fd;
+    padding: 5px;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 3em;
+    background-color: #789cff;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #174cfdd5;
+    font-weight: 800;
+}
+
+.logo img {
+    width: 33%;
+    height: 33%;
+    margin-left: 10px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullname {
+    margin-right: 20px;
+    flex-basis: 750px;
+}
+
+.myImg {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    flex-basis: 450px;
+}
+
+.knowledge {
+    display: flex;
+    margin-left: 50px;
+    justify-content: left;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+}
+
+.article {
+    margin-top: 2em;   
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: #08298A;
+    padding-left: 20px;
+}
+
+.text {
+    font-size: 1rem;
+    color: #585858;
+}
+
+h2 {
+    text-align: center;
+    color: #35368a;
+}
+
+h1 {
+    color: #08298A;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer {
+    background-color: #789cff;
+    flex: 0 0 auto;
+}
