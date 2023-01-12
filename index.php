@@ -4,9 +4,9 @@
 
 <?php 
     $name = 'Иван';
-    $surname = 'Иванов';
-    $city = 'Москва';
-    $age = 0x19;
+    $surname = 'Галанин';
+    $city = 'NN';
+    $age = 0x20;
 ?>
 
 <?php

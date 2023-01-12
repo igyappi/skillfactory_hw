@@ -10,8 +10,8 @@
 <body>
     <div class="flex-container">
         <div class="header">     
-               <?php include 'logo.inc.php' ?>         
-               <?php include 'menu.inc.php' ?>	   
+               <?php include 'logo.inc.php' ?>
+               <?php include 'menu.inc.php' ?>
         </div>
         <div class="about_me">
           <h1>  <?php  echo $p  ?> </h1>
@@ -36,9 +36,9 @@
                                 break;
                         }
                     ?>
-                    <p> Меня зовут 
-                    <?php echo $name, ' ', $surname . '<br>'; 
-                          echo 'город', ' ', $city; ?>                                      
+                    <p> Меня зовут
+                    <?php echo $name, ' ', $surname . '<br>';
+                          echo 'город', ' ', $city; ?>
                     </p>
                     <p> Мне
                     <?php  echo $age, ' ', $age_text;   ?></p>
@@ -61,16 +61,16 @@
                     ?>
                     <?php echo $a, ' ', $b, $c; ?> <br>
                     <?php
-                        $a = 10;
+                        $a = 0x10;
                         $b = 20;
-                        $c = $a + $b;
-                        echo "$a + $b = $c <br>";
+                        define('B_OCTAL', 052);
+                        $c = $a + $b + B_OCTAL;
+                        echo "$a + $b + " . B_OCTAL . " = $c <br>";
                         echo "gettype($c) returned ", gettype($c), "<br>";
                         $fp_num = 3.14;
                         echo "gettype($fp_num) returned ", gettype($fp_num);
-                    ?><br>                
+                    ?><br>
                     <?php
-                        echo "price = $price <br>";
                         echo $d . "<br>";
                         echo "var_dump(\$d) returned:<br>";
                         var_dump($d);
